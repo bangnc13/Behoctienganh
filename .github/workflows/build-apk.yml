@@ -21,7 +21,7 @@ jobs:
           java-version: 21
 
       - name: Cài thư viện
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Tạo dự án Android
         run: npx cap add android
